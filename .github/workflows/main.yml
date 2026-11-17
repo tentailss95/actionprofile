@@ -23,5 +23,5 @@ jobs:
       - name: Maven Test on main branch
         run: mvn test
 
-      -name: Checkstyle
+      - name: Checkstyle
         run: mvn checkstyle:check
